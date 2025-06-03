@@ -1,6 +1,6 @@
 # cmake file for building PandoraSDK
 #-------------------------------------------------------------------------------------------------------------------------------------------
-cmake_minimum_required(VERSION 2.8.2 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 
 if(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR})
     message(FATAL_ERROR "PandoraSDK requires an out-of-source build.")
